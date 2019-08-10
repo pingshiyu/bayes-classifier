@@ -4,7 +4,6 @@ import argparse
 import _pickle as cp
 import numpy as np
 
-
 def load_raw_data(filename):
     raw_data = loadtxt(filename, delimiter=',', skiprows=0, dtype=str)
     return raw_data
