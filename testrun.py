@@ -25,8 +25,6 @@ test_accuracy = np.mean(yhat == y_test)
 print('NBC accuracy on voting.pickle:', test_accuracy)
 
 '''
-Handin 1:
-
 For Logistic regression of the sklearn package: 
 If we want to use lambda as our parameter, then we should set C to be 1/(2*lambda) according to the implementation in scipy.
 '''
